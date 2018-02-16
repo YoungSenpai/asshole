@@ -1,0 +1,78 @@
+
+!! active-bgnd, inactive-bgnd, active-fgnd, inactive-fgnd
+!! #0E2121,     #355158,       #fefefe,     #000000
+
+menu.title.bg.color: #0E2121
+menu.bullet.image.color: #0E2121
+window.active.client.color: #0E2121
+menu.items.active.bg.color: #0E2121
+window.active.grip.bg.color: #0E2121
+window.active.title.bg.color: #0E2121
+window.active.handle.bg.color: #0E2121
+menu.items.disabled.text.color: #0E2121
+window.active.button.disabled.bg.color: #0E2121
+window.active.button.toggled.image.color: #0E2121
+window.active.button.disabled.image.color: #0E2121
+
+menu.items.bg.color: #355158
+window.inactive.client.color: #355158
+window.inactive.grip.bg.color: #355158
+window.inactive.title.bg.color: #355158
+window.inactive.handle.bg.color: #355158
+window.inactive.button.disabled.bg.color: #355158
+window.inactive.button.toggled.image.color: #355158
+window.inactive.button.disabled.image.color: #355158
+
+menu.title.text.color: #fefefe
+menu.items.active.text.color: #fefefe
+window.active.label.text.color:  #fefefe
+window.active.button.toggled.bg.color: #fefefe
+window.active.button.toggled.bg.colorTo: #fefefe
+window.active.button.unpressed.image.color: #fefefe
+
+menu.items.text.color: #000000
+menu.bullet.selected.image.color: #000000
+window.inactive.label.text.color: #000000
+window.inactive.button.toggled.bg.color: #000000
+window.active.button.pressed.image.color: #000000
+window.inactive.button.toggled.bg.colorTo: #000000
+window.inactive.button.pressed.bg.colorTo: #000000
+window.inactive.button.unpressed.image.color: #000000
+
+border.color: black
+menu.title.bg: flat
+window.active.grip.bg: flat
+window.active.handle.bg: flat
+window.inactive.grip.bg: flat
+window.inactive.title.bg: flat
+window.inactive.handle.bg: flat
+window.active.title.bg: focus: flat
+window.active.button.disabled.bg: flat
+window.inactive.button.disabled.bg: flat
+window.active.button.toggled.bg: flat vertical flat
+window.inactive.button.toggled.bg: flat vertical flat
+
+menu.items.justify: left
+menu.title.text.justify: left
+window.label.text.justify: left
+
+menu.items.bg: flat solid
+menu.items.active.bg: flat solid
+
+window.active.label.bg: parentrelative
+window.inactive.label.bg: parentrelative
+window.active.button.pressed.bg: parentrelative
+window.active.button.unpressed.bg: parentrelative
+window.inactive.button.pressed.bg: parentrelative
+window.inactive.button.unpressed.bg: parentrelative
+
+border.width: 3
+padding.width: 2
+padding.height: 1
+window.handle.width: 3
+window.client.padding.width: 0
+menu.items.font: Bitstream Vera Sans:size=6
+menu.title.text.font: Bitstream Vera Sans:bold:size=6
+window.active.label.text.font: Bitstream Vera Sans:bold:size=6
+window.inactive.label.text.font: Bitstream Vera Sans:bold:size=6
+

@@ -1,0 +1,40 @@
+{
+   "checksum": "157846c4533bb4440eb0047b796b751c",
+   "roots": {
+      "bookmark_bar": {
+         "children": [  ],
+         "date_added": "13162324518357473",
+         "date_modified": "0",
+         "id": "1",
+         "name": "Панель закладок",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13162324518357503",
+         "date_modified": "0",
+         "id": "2",
+         "name": "Другие закладки",
+         "type": "folder"
+      },
+      "sync_transaction_version": "1",
+      "synced": {
+         "children": [  ],
+         "date_added": "13162324518357510",
+         "date_modified": "0",
+         "id": "3",
+         "name": "Смартфон",
+         "type": "folder"
+      },
+      "tablet": {
+         "children": [  ],
+         "date_added": "13162324518357515",
+         "date_modified": "0",
+         "id": "4",
+         "name": "Планшет",
+         "type": "folder"
+      }
+   },
+   "version": 1,
+   "yandex_version": 1
+}

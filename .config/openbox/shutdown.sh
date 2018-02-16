@@ -1,0 +1,1 @@
+openbox --exit & sleep 3; dbus-send --system --print-reply --dest=«org.freedesktop.Hal»

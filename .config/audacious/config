@@ -1,0 +1,44 @@
+
+[audacious]
+equalizer_bands=10.559999,6.72,7.2,0,0,0,0,0,0,0
+
+[audgui]
+equalizer_win=1921,200,374,288
+
+[gtkui]
+close_button_visible=FALSE
+column_widths=60,175,175,10,175,175,25,100,32,60,275,275,275,32
+player_height=595
+player_width=599
+player_x=1060
+player_y=82
+playlist_columns=number title artist
+playlist_tabs_visible=FALSE
+statusbar_visible=FALSE
+
+[gtkui-layout]
+item0_name=Размывающийся уровень
+item0_pos=-1,0,0,284,188
+item1_name=Анализатор спектра
+item1_pos=-1,0,0,284,188
+item2_name=OpenGL Спектральный Анализатор
+item2_pos=-1,0,0,284,188
+item_count=3
+
+[skins]
+equalizer_x=2136
+equalizer_y=334
+mainwin_font=Fixed 9
+mainwin_use_bitmapfont=FALSE
+peaks_falloff=0
+player_x=2010
+player_y=218
+playlist_font=Fixed 9
+playlist_height=348
+playlist_visible=TRUE
+playlist_x=2010
+playlist_y=334
+skin=/usr/share/audacious/Skins/Refugee
+
+[skins-layout]
+cairo-spectrum=1048,252,288,192

@@ -1,0 +1,34 @@
+[OPTIONS]
+textnumberforeground=Black
+width=598
+textfont=Fixed [Misc],93,normal,regular,,iso10646-1
+tabcols=8
+linesnum=0
+textnumberbackground=Gray100
+hilitematchtime=3000
+hidestatus=0
+wordwrap=0
+height=568
+textforeground=Black
+textselbackground=#31659c
+texthiliteforeground=Black
+ypos=72
+textcursor=Black
+searchpath=
+texthilitebackground=#ff8080
+wrapcols=80
+hidetoolbar=0
+xpos=1430
+stripreturn=0
+textbackground=Gray100
+textselforeground=Gray100
+
+[Recent Files]
+FILE2="/home/ysen/\xD0\x97\xD0\xB0\xD0\xB3\xD1\x80\xD1\x83\xD0\xB7\xD0\xBA\xD0\xB8/hybrid.txt"
+FILE1=/home/ysen/.icons/readme.txt
+
+[SETTINGS]
+tippause=500
+basecolor=#a5b2c6
+tiptime=10000
+

@@ -1,0 +1,77 @@
+
+!! #2D314A, #743C2D, #ffffff, #000000
+
+menu.title.bg.color: #2D314A
+menu.bullet.image.color: #2D314A
+window.active.client.color: #2D314A
+menu.items.active.bg.color: #2D314A
+window.active.grip.bg.color: #2D314A
+window.active.title.bg.color: #2D314A
+window.active.handle.bg.color: #2D314A
+menu.items.disabled.text.color: #2D314A
+window.active.button.disabled.bg.color: #2D314A
+window.active.button.toggled.image.color: #2D314A
+window.active.button.disabled.image.color: #2D314A
+
+menu.items.bg.color: #743C2D
+window.inactive.client.color: #743C2D
+window.inactive.grip.bg.color: #743C2D
+window.inactive.title.bg.color: #743C2D
+window.inactive.handle.bg.color: #743C2D
+window.inactive.button.disabled.bg.color: #743C2D
+window.inactive.button.toggled.image.color: #743C2D
+window.inactive.button.disabled.image.color: #743C2D
+
+menu.title.text.color: #ffffff
+menu.items.active.text.color: #ffffff
+window.active.label.text.color:  #ffffff
+window.active.button.toggled.bg.color: #ffffff
+window.active.button.toggled.bg.colorTo: #ffffff
+window.active.button.unpressed.image.color: #ffffff
+
+menu.items.text.color: #000000
+menu.bullet.selected.image.color: #000000
+window.inactive.label.text.color: #000000
+window.inactive.button.toggled.bg.color: #000000
+window.active.button.pressed.image.color: #000000
+window.inactive.button.toggled.bg.colorTo: #000000
+window.inactive.button.pressed.bg.colorTo: #000000
+window.inactive.button.unpressed.image.color: #000000
+
+border.color: black
+menu.title.bg: flat
+window.active.grip.bg: flat
+window.active.handle.bg: flat
+window.inactive.grip.bg: flat
+window.inactive.title.bg: flat
+window.inactive.handle.bg: flat
+window.active.title.bg: focus: flat
+window.active.button.disabled.bg: flat
+window.inactive.button.disabled.bg: flat
+window.active.button.toggled.bg: flat vertical flat
+window.inactive.button.toggled.bg: flat vertical flat
+
+menu.items.justify: left
+menu.title.text.justify: left
+window.label.text.justify: left
+
+menu.items.bg: flat solid
+menu.items.active.bg: flat solid
+
+window.active.label.bg: parentrelative
+window.inactive.label.bg: parentrelative
+window.active.button.pressed.bg: parentrelative
+window.active.button.unpressed.bg: parentrelative
+window.inactive.button.pressed.bg: parentrelative
+window.inactive.button.unpressed.bg: parentrelative
+
+border.width: 3
+padding.width: 2
+padding.height: 1
+window.handle.width: 3
+window.client.padding.width: 0
+menu.items.font: Bitstream Vera Sans:size=6
+menu.title.text.font: Bitstream Vera Sans:bold:size=6
+window.active.label.text.font: Bitstream Vera Sans:bold:size=6
+window.inactive.label.text.font: Bitstream Vera Sans:bold:size=6
+

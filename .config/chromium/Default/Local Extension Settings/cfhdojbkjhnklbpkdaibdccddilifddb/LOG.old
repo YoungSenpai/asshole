@@ -1,0 +1,40 @@
+2018/02/14-14:17:31.126 11724 Reusing MANIFEST /home/ysen/.config/chromium/Default/Local Extension Settings/cfhdojbkjhnklbpkdaibdccddilifddb/MANIFEST-000001
+2018/02/14-14:17:31.126 11724 Recovering log #90
+2018/02/14-14:17:31.167 11724 Reusing old log /home/ysen/.config/chromium/Default/Local Extension Settings/cfhdojbkjhnklbpkdaibdccddilifddb/000090.log 
+2018/02/14-14:18:32.368 11985 Level-0 table #93: started
+2018/02/14-14:18:32.491 11985 Level-0 table #93: 3136401 bytes OK
+2018/02/14-14:18:32.548 11985 Delete type=0 #90
+2018/02/14-14:18:32.550 11985 Compacting 4@0 + 2@1 files
+2018/02/14-14:18:32.751 11985 Generated table #94@0: 1 keys, 3136328 bytes
+2018/02/14-14:18:32.814 11985 Generated table #95@0: 2 keys, 1231 bytes
+2018/02/14-14:18:32.815 11985 Compacted 4@0 + 2@1 files => 3137559 bytes
+2018/02/14-14:18:32.881 11985 compacted to: files[ 0 2 1 0 0 0 0 ]
+2018/02/14-14:18:32.882 11985 Delete type=2 #85
+2018/02/14-14:18:32.892 11985 Delete type=2 #87
+2018/02/14-14:18:32.892 11985 Delete type=2 #93
+2018/02/14-14:18:32.893 11985 Delete type=2 #82
+2018/02/14-14:18:32.893 11985 Delete type=2 #89
+2018/02/14-14:18:32.894 11985 Delete type=2 #83
+2018/02/14-14:18:34.341 11985 Level-0 table #97: started
+2018/02/14-14:18:34.497 11985 Level-0 table #97: 3137593 bytes OK
+2018/02/14-14:18:34.531 11985 Delete type=0 #92
+2018/02/14-14:19:10.435 11985 Level-0 table #99: started
+2018/02/14-14:19:10.593 11985 Level-0 table #99: 3170874 bytes OK
+2018/02/14-14:19:10.711 11985 Delete type=0 #96
+2018/02/14-14:20:04.883 11985 Level-0 table #101: started
+2018/02/14-14:20:04.992 11985 Level-0 table #101: 3170964 bytes OK
+2018/02/14-14:20:05.037 11985 Delete type=0 #98
+2018/02/14-14:20:07.807 11985 Level-0 table #103: started
+2018/02/14-14:20:07.950 11985 Level-0 table #103: 3170878 bytes OK
+2018/02/14-14:20:08.007 11985 Delete type=0 #100
+2018/02/14-14:20:08.008 11985 Compacting 4@0 + 2@1 files
+2018/02/14-14:20:08.162 11985 Generated table #104@0: 1 keys, 3170878 bytes
+2018/02/14-14:20:08.207 11985 Generated table #105@0: 2 keys, 1232 bytes
+2018/02/14-14:20:08.207 11985 Compacted 4@0 + 2@1 files => 3172110 bytes
+2018/02/14-14:20:08.285 11985 compacted to: files[ 0 2 1 0 0 0 0 ]
+2018/02/14-14:20:08.285 11985 Delete type=2 #103
+2018/02/14-14:20:08.286 11985 Delete type=2 #99
+2018/02/14-14:20:08.287 11985 Delete type=2 #101
+2018/02/14-14:20:08.289 11985 Delete type=2 #97
+2018/02/14-14:20:08.290 11985 Delete type=2 #94
+2018/02/14-14:20:08.291 11985 Delete type=2 #95

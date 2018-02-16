@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/ysen/.config/wpg/wallpapers/no_love3.png",
+    "alpha": "100",
+
+    "special": {
+        "background": "#141415",
+        "foreground": "#fffeff",
+        "cursor": "#e7e6e7"
+    },
+    "colors": {
+        "color0": "#141415",
+        "color1": "#6C6A90",
+        "color2": "#8E8E8E",
+        "color3": "#A49DA3",
+        "color4": "#ABABAA",
+        "color5": "#C7BBC0",
+        "color6": "#C8C8C7",
+        "color7": "#e7e6e7",
+        "color8": "#272729",
+        "color9": "#7d79cb",
+        "color10": "#caa6a6",
+        "color11": "#e9b7e2",
+        "color12": "#f4f4c6",
+        "color13": "#ffdaf5",
+        "color14": "#ffffe4",
+        "color15": "#fffeff"
+    }
+}

@@ -1,0 +1,11 @@
+{
+   "description": {
+      "message": "Send report Ya.Browser beta"
+   },
+   "name": {
+      "message": "Beta bug report"
+   },
+   "tooltip": {
+      "message": "Bug report"
+   }
+}

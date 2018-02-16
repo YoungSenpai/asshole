@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="lib/jquery/jquery-2.1.4.js"></script>
+    <script src="lib/lc_switch/lc_switch.js"></script>
+    <script src="popup.js"></script>
+    <link rel="stylesheet" type="text/css" href="popup.css" />
+    <link rel="stylesheet" type="text/css" href="lib/lc_switch/lc_switch.css" />
+</head>
+<body>
+    <div id="content">
+        <div id="control" class="block">
+            <div class="label">
+                <span class="status"></span>
+                <span id="inform" style="display: none;">&nbsp;</span>
+            </div>
+            <input type="checkbox" name="check-1" value="4" class="lcs_check" autocomplete="off">
+        </div>
+
+        <div id="notifications" class="block" style="display: none">
+            <div class="label">Важные новости:</div>
+            <div id="notifications-list"></div>
+        </div>
+
+        <div id="contact-us" class="block">
+            <div class="label">Обнаружили ошибку? Свяжитесь с нами:</div>
+            <div class="vk item">
+                <img src="images/vk-40.png">&nbsp;
+                <a href="https://vk.com/dostup_rutracker" target="_blank">vk.com/dostup_rutracker</a>
+            </div>
+            <div class="email item">
+                <img src="images/email-40.png">&nbsp;
+                <span>public.proartex@gmail.com</span>
+            </div>
+            <div class="website item">
+                <img src="images/web-40.png">&nbsp;
+                <a href="http://dostup-rutracker.org/" target="_blank">dostup-rutracker.org</a>
+            </div>
+        </div>
+
+        <div id="rutracker-url" class="block">
+            <div class="website item">
+                <img src="images/web-40.png">&nbsp;
+                <a href="http://rutracker.org/" target="_blank">rutracker.org</a>
+            </div>
+        </div>
+
+        <div id="not-controllable" class="block" style="display: none;">Обнаружен конфликт! Настройки прокси контролируются другим плагином или не могут быть установлены.</div>
+        <div id="update-available" class="block" style="display: none;">Доступно обновление! Обновите плагин.</div>
+    </div>
+</body>
+</html>

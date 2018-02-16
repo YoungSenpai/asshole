@@ -1,0 +1,9 @@
+2018/02/06-18:47:43.399 1060 Reusing MANIFEST /home/ysen/.config/yandex-browser-beta/Default/IndexedDB/https_mega.nz_0.indexeddb.leveldb/MANIFEST-000001
+2018/02/06-18:47:43.589 1132 Current memtable full; waiting...
+2018/02/06-18:47:43.589 1452 Level-0 table #5: started
+2018/02/06-18:47:43.622 1452 Level-0 table #5: 3526 bytes OK
+2018/02/06-18:47:43.645 1452 Delete type=0 #3
+2018/02/06-18:47:43.645 1452 Level-0 table #7: started
+2018/02/06-18:47:43.645 1452 Level-0 table #7: 0 bytes OK
+2018/02/06-18:47:43.690 1452 Delete type=0 #4
+2018/02/06-18:47:43.690 1452 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)

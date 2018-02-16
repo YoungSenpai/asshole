@@ -1,0 +1,3 @@
+2018/02/08-14:43:43.744 1093 Reusing MANIFEST /home/ysen/.config/chromium/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2018/02/08-14:43:43.745 1093 Recovering log #3
+2018/02/08-14:43:43.769 1093 Reusing old log /home/ysen/.config/chromium/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000003.log 

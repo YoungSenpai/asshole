@@ -1,0 +1,148 @@
+@font-face {
+    font-family: 'Gotha Pro';
+    src: url('chrome-extension://__MSG_@@extension_id__/assets/fonts/GothaProReg.otf')
+}
+#touchvpn_icon_container {
+    font-family: 'Gotha Pro';
+    line-height: 1em;
+    position: fixed;
+    z-index: 999999999999999;
+    width: 56px;
+    height: 56px
+}
+#touchvpn_icon_container #touchvpn_status_icon {
+    width: 56px;
+    height: 56px;
+    background-size: auto 56px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.14), 0 4px 8px rgba(0, 0, 0, 0.28);
+    background-position: center center;
+    border-radius: 30px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 0;
+    left: 0
+}
+#touchvpn_icon_container.disconnected {
+    display: none
+}
+#touchvpn_icon_container #touchvpn_icon_selector {
+    position: absolute;
+    display: none;
+    left: 0;
+    top: -195px;
+    height: 195px;
+    width: 56px
+}
+#touchvpn_icon_container #touchvpn_icon_selector .touchvpn_country {
+    width: 35px;
+    height: 35px;
+    background-size: auto 35px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.14), 0 4px 8px rgba(0, 0, 0, 0.28);
+    background-position: center center;
+    border-radius: 35px;
+    cursor: pointer;
+    position: absolute;
+    opacity: 0;
+    left: 10px
+}
+#touchvpn_icon_container #touchvpn_icon_selector .touchvpn_country .touchvpn_icon_sign {
+    top: 6px;
+    right: 43px
+}
+#touchvpn_icon_container #touchvpn_icon_selector .touchvpn_country:nth-of-type(1) {
+    top: 0
+}
+#touchvpn_icon_container #touchvpn_icon_selector .touchvpn_country:nth-of-type(2) {
+    top: 50px
+}
+#touchvpn_icon_container #touchvpn_icon_selector .touchvpn_country:nth-of-type(3) {
+    top: 100px
+}
+#touchvpn_icon_container #touchvpn_icon_selector .touchvpn_country:nth-of-type(4) {
+    top: 150px
+}
+#touchvpn_icon_container #touchvpn_icon_selector .touchvpn_country:hover .touchvpn_icon_sign {
+    display: block
+}
+#touchvpn_icon_container .touchvpn_icon_sign {
+    font-family: 'Gotha Pro';
+    position: absolute;
+    display: none;
+    right: 65px;
+    top: 15px;
+    background: rgba(70, 70, 70, 0.9);
+    border-radius: 2px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+    color: #ececec;
+    font-weight: bold;
+    line-height: 1em;
+    overflow: hidden;
+    padding: 6px 8px;
+    text-overflow: ellipsis;
+    vertical-align: middle;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    white-space: nowrap
+}
+#touchvpn_icon_container:hover #touchvpn_status_icon {
+    background-image: url('chrome-extension://__MSG_@@extension_id__/assets/icons/icon-128.png');
+    background-size: auto 75px
+}
+#touchvpn_icon_container:hover #touchvpn_status_icon:hover .touchvpn_icon_sign {
+    display: block
+}
+#touchvpn_icon_container:hover #touchvpn_icon_selector {
+    display: block
+}
+#touchvpn_icon_container:hover #touchvpn_icon_selector .touchvpn_country {
+    animation-name: locationAppear;
+    animation-duration: .3s;
+    animation-fill-mode: forwards
+}
+#touchvpn_icon_container:hover #touchvpn_icon_selector .touchvpn_country:nth-of-type(1) {
+    animation-delay: .3s
+}
+#touchvpn_icon_container:hover #touchvpn_icon_selector .touchvpn_country:nth-of-type(2) {
+    animation-delay: .2s
+}
+#touchvpn_icon_container:hover #touchvpn_icon_selector .touchvpn_country:nth-of-type(3) {
+    animation-delay: .1s
+}
+#touchvpn_icon_container:hover #touchvpn_icon_selector .touchvpn_country:nth-of-type(4) {
+    animation-delay: 0s
+}
+#touchvpn_icon_container:hover #touchvpn_icon_selector .touchvpn_country:hover .touchvpn_icon_sign {
+    display: block
+}
+#touchvpn_icon_container.connecting #touchvpn_icon_selector {
+    display: none
+}
+#touchvpn_icon_container.connecting #touchvpn_status_icon {
+    background-image: url('chrome-extension://__MSG_@@extension_id__/assets/icons/loader.gif');
+    background-size: auto 56px;
+    animation-duration: 0s
+}
+#touchvpn_icon_container.connecting #touchvpn_status_icon:hover .touchvpn_icon_sign {
+    display: none
+}
+.touchvpn_ca {background-image: url('chrome-extension://__MSG_@@extension_id__/assets/flags/4x3/ca.svg');}
+.touchvpn_ch {background-image: url('chrome-extension://__MSG_@@extension_id__/assets/flags/4x3/ch.svg');}
+.touchvpn_dk {background-image: url('chrome-extension://__MSG_@@extension_id__/assets/flags/4x3/dk.svg');}
+.touchvpn_es {background-image: url('chrome-extension://__MSG_@@extension_id__/assets/flags/4x3/es.svg');}
+.touchvpn_fr {background-image: url('chrome-extension://__MSG_@@extension_id__/assets/flags/4x3/fr.svg');}
+.touchvpn_jp {background-image: url('chrome-extension://__MSG_@@extension_id__/assets/flags/4x3/jp.svg');}
+.touchvpn_nl {background-image: url('chrome-extension://__MSG_@@extension_id__/assets/flags/4x3/nl.svg');}
+.touchvpn_ru {background-image: url('chrome-extension://__MSG_@@extension_id__/assets/flags/4x3/ru.svg');}
+.touchvpn_se {background-image: url('chrome-extension://__MSG_@@extension_id__/assets/flags/4x3/se.svg');}
+.touchvpn_sg {background-image: url('chrome-extension://__MSG_@@extension_id__/assets/flags/4x3/sg.svg');}
+.touchvpn_gb {background-image: url('chrome-extension://__MSG_@@extension_id__/assets/flags/4x3/gb.svg');}
+.touchvpn_us {background-image: url('chrome-extension://__MSG_@@extension_id__/assets/flags/4x3/us.svg');}
+.touchvpn_de {background-image: url('chrome-extension://__MSG_@@extension_id__/assets/flags/4x3/de.svg');}
+.touchvpn_tr {background-image: url('chrome-extension://__MSG_@@extension_id__/assets/flags/4x3/tr.svg');}
+.touchvpn_cz {background-image: url('chrome-extension://__MSG_@@extension_id__/assets/flags/4x3/cz.svg');}
+.touchvpn_cl {background-image: url('chrome-extension://__MSG_@@extension_id__/assets/flags/4x3/cl.svg');}
+
+@keyframes locationAppear {
+    from {transform: scale(0,0);opacity: 1;}
+    to {transform: scale(1,1);opacity: 1;}
+}

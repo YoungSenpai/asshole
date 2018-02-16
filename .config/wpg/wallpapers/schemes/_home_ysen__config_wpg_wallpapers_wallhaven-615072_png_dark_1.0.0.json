@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/ysen/.config/wpg/wallpapers/wallhaven-615072.png",
+    "alpha": "100",
+
+    "special": {
+        "background": "#161a19",
+        "foreground": "#f7fffa",
+        "cursor": "#cbd7cd"
+    },
+    "colors": {
+        "color0": "#161a19",
+        "color1": "#3EF553",
+        "color2": "#22F553",
+        "color3": "#FFF317",
+        "color4": "#D94B2C",
+        "color5": "#9E996B",
+        "color6": "#35E79F",
+        "color7": "#cbd7cd",
+        "color8": "#282f2d",
+        "color9": "#3cff5c",
+        "color10": "#19ff62",
+        "color11": "#ffff0b",
+        "color12": "#ff5628",
+        "color13": "#ded479",
+        "color14": "#32ffd2",
+        "color15": "#f7fffa"
+    }
+}

@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 300px;
+    background: url("images/body_bg.png") repeat 50% 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.block {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 3px;
+    background-color: white;
+}
+
+#content {
+
+}
+
+#control {
+    position: relative;
+    text-align: right;
+}
+
+#control .label {
+    left: 10px;
+    top: 18px;
+    position: absolute;
+}
+
+#update-available, #not-controllable {
+    background-color: #FFCFBD;
+    color: red;
+}
+
+.strong {
+    font-weight: bold;
+}
+
+#contact-us .label, #rutracker-url .label {
+    margin-bottom: 15px;
+}
+
+#contact-us .item, #rutracker-url .item {
+    margin-top: 5px;
+}
+
+#contact-us .item a, #rutracker-url .item a {
+    text-decoration: none;
+    outline: none;
+    color: inherit;
+}
+
+#contact-us .vk img, #contact-us .email img, #contact-us .website img, #rutracker-url .website img {
+    width: 18px;
+    vertical-align: middle;
+}
+
+#inform {
+    display: inline-block;
+    width: 12px;
+    line-height: 12px;
+    background-image: url("images/info-40.png");
+    background-size: contain ;
+    background-repeat: no-repeat;
+}
+
+#inform:hover:after {
+    content: 'Обратите внимание, если зайти на сайт с выключенным плагином, сообщение о блокировке может закэшироваться браузером. В этом случае даже при включении плагина Вы увидите сообщение снова. О том как очистить кэш читайте в нашей группе Вконтакте.';
+    position: absolute;
+    z-index: 999;
+    display: block;
+    top: 22px;
+    left: 0;
+    width: 210px;
+    margin: 0;
+    padding: 8px;
+    border: 1px solid rgba(0,0,0,.1);
+    background-color: #ffffff;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    text-align: left;
+    line-height: 1.1;
+}
+
+#notifications-list .notification {
+    position: relative;
+    border-top: 1px solid #bcbcbc;
+    margin-top: 10px;
+}
+
+#notifications-list .notification a {
+    outline: none;
+}
+
+#notifications-list .notification .date {
+    color: green;
+    margin: 10px 0;
+}
+
+#notifications-list .notification .deactivate {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    cursor: pointer;
+    color: #8c8c8c;
+}

@@ -1,0 +1,28 @@
+{
+   "background": {
+      "persistent": false,
+      "scripts": [ "background.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "19": "/images/bug-19.png"
+      },
+      "default_title": "__MSG_tooltip__"
+   },
+   "default_locale": "en",
+   "description": "__MSG_description__",
+   "icons": {
+      "128": "/images/bug-128.png",
+      "16": "/images/bug-16.png",
+      "256": "/images/bug-256.png",
+      "32": "/images/bug-32.png",
+      "48": "/images/bug-48.png",
+      "64": "/images/bug-64.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC8O9m1fp7T+d/rjCpEIQm6iN38fjItp9ayJxfRlTQPp+y0K90bH0Yb+hpCqK+IKXf4N9ZkhjllexL9IxQdHiO8KISOmHr+VkwSEqHt4Gc/g2kYmzsBV4Ousf/iVVLHKySV1bjzXK2VZAcKytNGiaRRZ0+r22cCdGlWb+bGWOyNiwIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_name__",
+   "permissions": [ "yandex.browser" ],
+   "update_url": "https://storage.ape.yandex.net/get/browser/extentions/buggy/update.xml",
+   "version": "1.1.6"
+}

@@ -1,0 +1,14 @@
+[Desktop Entry]
+Name=www
+Exec=/home/ysen/Программы/firefox/firefox
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Icon=/home/ysen/Документы/icons/11.png
+Categories=Network;WebBrowser;
+MimeType=text/html;text/xml;application/xhtml+xml;application/xml;application/vnd.mozilla.xul+xml;application/rss+xml;application/rdf+xml;image/gif;image/jpeg;image/png;x-scheme-handler/http;x-scheme-handler/https;
+StartupWMClass=Firefox
+StartupNotify=true
+X-XFCE-Source=file:///home/ysen/.local/share/applications/Firefox.desktop
+Comment=
+Path=

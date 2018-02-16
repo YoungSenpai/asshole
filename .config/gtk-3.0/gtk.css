@@ -1,0 +1,27 @@
+.xfce4-panel .button:hover,
+.xfce4-panel .button:active:hover,
+.xfce4-panel .button:checked:hover {
+    border-color: transparent;
+    background-image: none;
+    border-radius: 0;
+    border-color: transparent;
+    box-shadow: none;
+    color: @panel_fg_color;
+
+    transition: none;
+}
+
+}
+style "panel-color" {
+  fg[ACTIVE]               = "#000000"
+  bg[PRELIGHT]             = "#654C65"
+  bg[ACTIVE]               = "#654C65"
+}
+widget_class "*Panel*" style "panel-background"
+widget "*PanelWidget*" style "panel-color"
+widget "*PanelApplet*" style "panel-color"
+widget "*Panel*" style "panel-color"
+widget_class "*Panel*" style "panel-color"
+class "*Panel*" style "panel-color"
+class "*Tray*" style "panel-color"
+class "*tray*" style "panel-color"

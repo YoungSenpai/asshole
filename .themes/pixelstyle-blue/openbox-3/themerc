@@ -1,0 +1,87 @@
+!! pixelstyle
+
+!! theme settings
+
+window.handle.width: 1
+window.client.padding.width: 0
+window.client.padding.height: 0
+border.width: 1
+padding.height: 0
+padding.width: 5
+menu.overlap.y: 1
+menu.overlap.x: -1
+border.color: #a7a7a7
+
+window.frameColor: #eeeeec
+window.*.client.color: #eeeeec
+*.text.justify: center
+
+!! fonts settings
+
+window.active.label.text.font: shadow=n:shadowoffset=1:shadowtint=3
+window.inactive.label.text.font: shadow=n:shadowoffset=1:shadowtint=0
+menu.items.font: shadow=n:shadowoffset=1:shadowtint=0
+menu.title.text.font: shadow=n:shadowoffset=1:shadowtint=30
+
+!! menu settings
+menu.border.color: #FDFDFF
+menu.title.bg: flat solid
+menu.title.bg.color: #FDFDFF
+menu.title.text.color: #81D3E7
+
+menu.items.bg: flat solid
+menu.items.bg.color: #FDFDFF
+menu.items.bg.border.color: #FDFDFF
+
+menu.items.text.color: #7B7B7B
+menu.items.disabled.text.color: #B2B2B2
+
+menu.items.active.bg: flat solid
+menu.items.active.bg.color: #FDFDFF
+menu.items.active.text.color: #81D3E7
+
+!! active windows settings
+
+window.active.title.bg: flat solid
+window.active.title.bg.color: #FDFDFF
+window.active.border.color: #FDFDFF
+
+window.active.label.bg: parentrelative
+window.active.label.text.color: #999999
+
+window.active.button.*.bg: parentrelative
+window.active.button.*.image.color: #999999
+window.active.button.hover.image.color: #81D3E7
+window.active.button.pressed.image.color: #6FB6C7
+window.active.button.disabled.image.color: #CCCCCC
+
+window.active.handle.bg: flat solid
+window.active.handle.bg.color: #B2B2B2
+window.*.grip.bg: parentrelative
+
+!! inactive windows settings
+
+window.inactive.title.bg: flat solid
+window.inactive.title.bg.color: #B2B2B2
+window.inactive.border.color: #B2B2B2
+
+window.inactive.label.bg: parentrelative
+window.inactive.label.text.color: #FDFDFF
+
+window.inactive.button.*.bg: parentrelative
+window.inactive.button.*.image.color:  #FDFDFF
+window.inactive.button.disabled.image.color: #E0E0E0
+
+window.inactive.handle.bg: flat solid
+window.inactive.handle.bg.color: #FDFDFF
+
+!! osd settings
+
+osd.bg: flat solid
+osd.bg.color: #FDFDFF
+osd.border.color: #FDFDFF
+osd.label.text.color: #81D3E7
+osd.*.bg : flat solid
+osd.label.bg: parentrelative
+osd.hilight.bg.color: #7B7B7B
+osd.unhilight.bg.color: #B2B2B2

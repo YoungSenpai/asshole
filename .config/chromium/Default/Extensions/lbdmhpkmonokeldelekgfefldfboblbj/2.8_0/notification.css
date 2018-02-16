@@ -1,0 +1,41 @@
+#dostup-rutracker-notifications * {
+    margin: 0;
+    padding: 0;
+}
+
+#dostup-rutracker-notifications {
+    position: fixed;
+    z-index: 9999;
+    width: 250px;
+    top: 15px;
+    right: 15px;
+}
+
+#dostup-rutracker-notifications .notification {
+    padding: 10px;
+    position: relative;
+    margin-bottom: 15px;
+    background-color: white;
+    border-radius: 4px;
+    opacity: 0.95;
+    box-shadow: 0 0 5px rgba(0,0,0,.7);
+}
+
+#dostup-rutracker-notifications .notification .date {
+    font-size: 12px;
+    color: #006699;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#dostup-rutracker-notifications .notification .message {
+    font-size: 14px;
+}
+
+#dostup-rutracker-notifications .notification .deactivate {
+    position: absolute;
+    top: 10px;
+    right: 5px;
+    color: #dd6900;
+    cursor: pointer;
+}

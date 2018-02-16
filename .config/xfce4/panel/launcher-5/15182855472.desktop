@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=msg
+TryExec=/home/ysen/Программы/tsetup.1.2.6/Telegram/Telegram
+Exec=/home/ysen/Программы/tsetup.1.2.6/Telegram/Telegram -- %u
+Icon=/home/ysen/Документы/icons/12.png
+Terminal=false
+Type=Application
+Categories=Network;InstantMessaging;Qt;
+X-XFCE-Source=file:///home/ysen/.local/share/applications/Telegram.desktop
+Comment=
+Path=
+StartupNotify=false

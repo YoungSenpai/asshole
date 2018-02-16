@@ -1,0 +1,34 @@
+{
+   "author": "Artex",
+   "background": {
+      "persistent": true,
+      "scripts": [ "background.static.js", "background.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "19": "images/rutracker19.png",
+         "38": "images/rutracker38.png"
+      },
+      "default_popup": "popup.html",
+      "default_title": "Доступ к Рутрекеру"
+   },
+   "content_scripts": [ {
+      "css": [ "notification.css" ],
+      "js": [ "notifications.js" ],
+      "matches": [ "*://rutracker.org/*" ],
+      "run_at": "document_end"
+   } ],
+   "description": "Бесплатный доступ к rutracker.org для граждан РФ",
+   "icons": {
+      "128": "images/rutracker128.png",
+      "16": "images/rutracker16.png",
+      "48": "images/rutracker48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAgc3L+7oGyf6qVj3RR9EISPDfHzNpi9n2aHtCUXYP95mqB1VOe2MB6V/3fAOVjDDkfPKkoZMZe/8QdfOr30zrwA5MqzKgrCUpL7YcBI78fv4PQ+JS9cqK2Jr5z7AHhjkvwckd3WjW0OBM900m11N94GY1X7sfprmn3r6i+BV+g0Kgu3+HufcdbrfAVxvUVFZbcEadkX88vto2oXyR/OHhCDwAfhjihYd4joVldcbmKBXhvfgARIxV4UcsjhW+O10RQCCVxFQnE5IYnEWjpkfrT0GpMhNVmy/jB28eMyu5H6o0+r62tRmIaXbfd6fgqb1j9F/GuBWi1F11c6kTWgBN/QIDAQAB",
+   "manifest_version": 2,
+   "name": "Доступ к Рутрекеру",
+   "permissions": [ "proxy", "activeTab", "browsingData", "*://rutracker.org/*" ],
+   "short_name": "Rutracker",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.8"
+}

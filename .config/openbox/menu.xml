@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openbox_menu xmlns="http://openbox.org/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openbox.org/                 file:///usr/share/openbox/menu.xsd">
+	<menu id="root-menu" label="Openbox 3">
+		<item label="Terminal emulator">
+			<action name="Execute">
+				<execute>gnome-terminal</execute>
+			</action>
+		</item>
+		<item label="File Manager">
+			<action name="Execute">
+				<execute>thunar</execute>
+			</action>
+		</item>
+		<item label="Web browser">
+			<action name="Execute">
+				<execute>/home/ysen/Программы/firefox/firefox</execute>
+			</action>
+		</item>
+		<!-- This requires the presence of the 'menu' package to work -->
+		<separator/>
+		<menu id="root-menu-305928" label="Apps">
+			<item label="Gimp">
+				<action name="Execute">
+					<execute>gimp</execute>
+				</action>
+			</item>
+			<item label="Atom">
+				<action name="Execute">
+					<execute>atom</execute>
+				</action>
+			</item>
+			<item label="Inkscape">
+				<action name="Execute">
+					<execute>inkscape</execute>
+				</action>
+			</item>
+			<item label="Tint2Conf">
+				<action name="Execute">
+					<execute>tint2conf</execute>
+				</action>
+			</item>
+			<item label="Xfe File Manager">
+				<action name="Execute">
+					<execute>xfe</execute>
+				</action>
+			</item>
+			<item label="Nitrogen">
+				<action name="Execute">
+					<execute>nitrogen</execute>
+				</action>
+			</item>
+			<item label="Mega">
+				<action name="Execute">
+					<execute>megasync</execute>
+				</action>
+			</item>
+		</menu>
+		<separator/>
+		<item label="Settings">
+			<action name="Execute">
+				<execute>lxappearance</execute>
+			</action>
+		</item>
+		<item label="ObMenu">
+			<action name="Execute">
+				<execute>obmenu</execute>
+			</action>
+		</item>
+		<item label="ObConf">
+			<action name="Execute">
+				<execute>obconf</execute>
+			</action>
+		</item>
+		<item label="Reconfigure">
+			<action name="Reconfigure"/>
+		</item>
+		<item label="Restart">
+			<action name="Restart"/>
+		</item>
+		<separator/>
+		<item label="Exit">
+			<action name="Exit"/>
+		</item>
+	</menu>
+</openbox_menu>
