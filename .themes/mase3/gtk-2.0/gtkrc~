@@ -1,0 +1,19 @@
+#
+# This theme is an attempt at extreme minimalist ascetism.
+#
+style "default-style"
+{
+        # modify the x/ythickness, used for spacing all over the place
+        xthickness = 0
+        ythickness = 0
+
+        # one can set so called "style properties"
+        GtkRange::slider-width = 7
+
+        bg[NORMAL]      = "#888888"
+        fg[NORMAL]      = "#222222"
+        base[NORMAL]    = "#555555"
+        text[NORMAL]    = "#cccccc"
+}
+
+class "GtkWidget" style "default-style"

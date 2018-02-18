@@ -1,0 +1,17 @@
+
+own_window yes
+own_window_transparent no
+own_window_type panel
+own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
+out_to_console no
+use_xft yes
+xftfont Fixed:size=8
+update_interval 2
+
+double_buffer yes
+minimum_width 768
+minimum_size 768
+no_buffers yes
+
+TEXT
+Hello world 

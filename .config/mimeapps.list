@@ -9,7 +9,7 @@ x-scheme-handler/http=exo-web-browser.desktop
 x-scheme-handler/https=exo-web-browser.desktop
 x-scheme-handler/mailto=exo-mail-reader.desktop
 image/png=eog.desktop;gimp.desktop;inkscape.desktop;display-im6.q16.desktop;
-image/jpeg=feh.desktop;xfi.desktop;shotwell-viewer.desktop;display-im6.q16.desktop;
+image/jpeg=eog.desktop;gimp.desktop;feh.desktop;xfi.desktop;shotwell-viewer.desktop;display-im6.q16.desktop;
 image/vnd.djvu+multipage=evince.desktop;
 x-scheme-handler/ftp=firefox-esr.desktop;userapp-Firefox-B6QSDZ.desktop;
 x-scheme-handler/chrome=firefox-esr.desktop;userapp-Firefox-B6QSDZ.desktop;
@@ -31,6 +31,12 @@ text/x-csrc=org.gnome.gedit.desktop;mousepad.desktop;
 video/mp4=vlc.desktop;
 video/webm=vlc.desktop;
 application/pdf=evince.desktop;
+application/x-compressed-tar=org.gnome.FileRoller.desktop;
+application/x-tar=org.gnome.FileRoller.desktop;
+application/x-lzma-compressed-tar=org.gnome.FileRoller.desktop;
+text/x-apt-sources-list=mousepad.desktop;
+text/markdown=mousepad.desktop;
+text/x-c++src=org.gnome.gedit.desktop;vim.desktop;
 
 [Default Applications]
 application/vnd.debian.binary-package=gnome-software-local-file.desktop

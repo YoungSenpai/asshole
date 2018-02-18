@@ -818,6 +818,9 @@
  <application class="Firefox">
         <decor>no</decor>
  </application>
+ <application class="XClock">
+        <decor>no</decor>
+ </application>
 
   </applications>
 </openbox_config>

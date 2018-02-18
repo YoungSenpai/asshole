@@ -131,15 +131,16 @@
       <eventcontext
          id="rect"
          style="fill:blue;"
-         usecurrent="1"
-         width="0"
-         height="0"
+         usecurrent="0"
+         width="22.1997"
+         height="150.958"
          rx="0"
          ry="0" />
       <eventcontext
          id="3dbox"
          style="stroke:none;stroke-linejoin:round;"
-         usecurrent="1">
+         usecurrent="1"
+         persp="perspective4597">
         <side
            id="XYfront"
            style="fill:#8686bf;stroke:none;stroke-linejoin:round;"
@@ -173,12 +174,13 @@
          usecurrent="1" />
       <eventcontext
          id="star"
-         magnitude="5"
+         magnitude="3"
          style="fill:yellow;"
-         usecurrent="1"
+         usecurrent="0"
          proportion="0.5"
          rounded="0"
-         randomized="0" />
+         randomized="0"
+         isflatsided="0" />
       <eventcontext
          id="spiral"
          style="fill:none;stroke:black"
@@ -324,7 +326,7 @@
        id="lpetool"
        mode="drag"
        style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;"
-       unit="px"
+       unit="mm"
        show_bbox="1" />
     <eventcontext
        id="text"
@@ -335,8 +337,8 @@
        style="fill:black;fill-opacity:1;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;letter-spacing:0px;word-spacing:0px"
        selcue="1">
       <group
-         id="lineheight"
-         display_unit="0" />
+         display_unit="0"
+         id="lineheight" />
     </eventcontext>
     <eventcontext
        id="nodes"
@@ -346,7 +348,7 @@
        pathflash_enabled="1"
        pathflash_unselected="0"
        pathflash_timeout="500"
-       show_handles="1"
+       show_handles="0"
        show_outline="0"
        sculpting_profile="1"
        single_node_transform_handles="0"
@@ -354,8 +356,8 @@
        live_outline="1"
        live_objects="1"
        show_helperpath="0"
-       x="0"
-       y="0"
+       x="410.393"
+       y="828.003"
        edit_clipping_paths="0"
        edit_masks="0" />
     <eventcontext
@@ -422,12 +424,12 @@
        offset="0"
        offsetunits="cm" />
     <group
-       id="measure"
-       fontsize="10"
-       precision="2"
-       scale="100"
+       unit="mm"
        offset="5"
-       unit="px" />
+       scale="100"
+       precision="2"
+       fontsize="10"
+       id="measure" />
   </group>
   <group
      id="palette">
@@ -565,7 +567,20 @@
     <group
        id="toolbox" />
     <group
-       id="fillstroke" />
+       id="fillstroke"
+       panel_size="1"
+       panel_ratio="100"
+       panel_mode="1"
+       panel_wrap="0"
+       panel_border="0"
+       page="0"
+       x="0"
+       y="0"
+       w="312"
+       h="528"
+       visible="1"
+       state="2"
+       placement="1" />
     <group
        id="filtereffects" />
     <group
@@ -587,10 +602,31 @@
        ignorenumbers="1" />
     <group
        id="documentoptions"
-       state="1" />
+       state="1"
+       panel_size="1"
+       panel_ratio="100"
+       panel_mode="1"
+       panel_wrap="0"
+       panel_border="0"
+       x="1441"
+       y="22"
+       w="525"
+       h="696"
+       visible="0"
+       placement="1" />
     <group
        id="preferences"
-       state="1" />
+       state="1"
+       panel_size="1"
+       panel_ratio="100"
+       panel_mode="1"
+       panel_wrap="0"
+       panel_border="0"
+       page="4"
+       x="1275"
+       y="80"
+       w="864"
+       h="607" />
     <group
        id="gradienteditor" />
     <group
@@ -634,7 +670,8 @@
        id="debug"
        redirect="0" />
     <group
-       id="clonetiler" />
+       id="clonetiler"
+       dotrace="0" />
     <group
        id="gridtiler" />
     <group
@@ -685,16 +722,16 @@
        on-blur="0.50"
        animate-time="100" />
     <group
-       h="224"
-       w="334"
-       y="0"
-       x="0"
-       panel_border="0"
-       panel_wrap="0"
-       panel_mode="1"
-       panel_ratio="100"
+       id="pixelart"
        panel_size="1"
-       id="pixelart" />
+       panel_ratio="100"
+       panel_mode="1"
+       panel_wrap="0"
+       panel_border="0"
+       x="0"
+       y="0"
+       w="334"
+       h="224" />
   </group>
   <group
      id="printing">
@@ -983,10 +1020,13 @@
   <group
      id="extensions"
      org.inkscape.input.gdkpixbuf.png.scale="auto"
-     org.inkscape.input.gdkpixbuf.png.dpi="from_file" />
+     org.inkscape.input.gdkpixbuf.png.dpi="from_file"
+     org.ekips.filter.addnodes.method="bymax"
+     org.ekips.filter.addnodes.max="10"
+     org.ekips.filter.addnodes.segments="2" />
   <group
      id="desktop"
-     style="line-height:1.25;fill:#ffffff">
+     style="line-height:1.25;opacity:1;stroke:none;stroke-opacity:1;stroke-width:18.898;stroke-miterlimit:4;stroke-dasharray:none;fill-opacity:0;paint-order:fill markers stroke;fill-rule:evenodd;fill:#d38d5f">
     <group
        width="640"
        height="480"
@@ -1018,7 +1058,7 @@
     <group
        id="tools"
        icononly="1"
-       small="0" />
+       small="1" />
   </group>
   <group
      id="iconpreview"

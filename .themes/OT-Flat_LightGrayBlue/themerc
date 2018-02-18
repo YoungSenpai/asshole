@@ -1,0 +1,64 @@
+#openbox themerc edited with obtheme
+border.color: #2D2D2D
+border.width: 1
+menu.border.color: #5D5D5D
+menu.items.active.bg: Solid Flat
+menu.items.active.bg.color: #C1C1C1
+menu.items.active.disabled.text.color: #A5A5A5
+menu.items.active.text.color: #2480FE
+menu.items.bg: flat solid
+menu.items.bg.color: #eeeeee
+menu.items.disabled.text.color: #bbbbbb
+menu.items.text.color: #666666
+menu.overlap.x: -2
+menu.separator.color: #484848
+menu.title.bg: flat solid border
+menu.title.bg.color: #d6d6d6
+menu.title.bg.border.color: #d6d6d6
+menu.title.text.color: #555555
+menu.title.text.font: shadow=n
+menu.title.text.justify: Left
+osd.bg: flat solid
+osd.bg.color: #dddddd
+osd.border.color: #dddddd
+osd.border.width: 4
+osd.hilight.bg: flat solid
+osd.hilight.bg.color: #AEDBE7
+osd.label.bg: Parentrelative
+osd.label.text.color: #555555
+osd.unhilight.bg: flat solid
+osd.unhilight.bg.color: #eeeeee
+padding.height: 0
+padding.width: 5
+window.active.border.color: #020202
+window.active.button.disabled.bg: parentrelative
+window.active.button.disabled.image.color: #bbbbbb
+window.active.button.hover.image.color: #444444
+window.active.button.pressed.bg: parentrelative
+window.active.button.toggled.hover.image.color: #444444
+window.active.button.unpressed.bg: parentrelative
+window.active.button.unpressed.image.color: #666666
+window.active.client.color: #C3C3C3
+window.active.label.bg: parentrelative
+window.active.label.text.color: #4172E2
+window.active.title.bg: flat solid
+window.active.title.bg.color: #d0d0d0
+window.active.title.separator.color: #d0d0d0
+window.client.padding.width: 0
+window.handle.width: 0
+window.inactive.button.disabled.bg: parentrelative
+window.inactive.button.disabled.image.color: #bbbbbb
+window.inactive.button.hover.image.color: #444444
+window.inactive.button.pressed.bg: parentrelative
+window.inactive.button.pressed.image.color: #666666
+window.inactive.button.toggled.hover.image.color: #444444
+window.inactive.button.toggled.image.color: #999999
+window.inactive.button.unpressed.bg: parentrelative
+window.inactive.button.unpressed.image.color: #999999
+window.inactive.client.color: #cccccc
+window.inactive.label.bg: parentrelative
+window.inactive.label.text.color: #888888
+window.inactive.title.bg: flat solid
+window.inactive.title.bg.color: #d0d0d0
+window.inactive.title.separator.color: #d0d0d0
+window.label.text.justify: center
